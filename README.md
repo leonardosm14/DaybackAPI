@@ -5,7 +5,7 @@ Nesta documentação, serão descritos os passos para que a aplicação criada e
 2) Ao baixar o XAMPP, MySQL, PHP e Apache são instalados em conjunto.
 3) Em 'http://localhost/phpmyadmin/', é necessário criar um Banco de Dados com o nome **daybackcarregadores**.
 4) Em seguida, é necessário instalar o [**Composer**](https://getcomposer.org/), para realizar os comandos referentes ao Laravel.
-5) Com tudo instalado, baixe a pasta "example-app" neste repositório com todos seus arquivos e, na mesma, rode o terminal.
+5) Com tudo instalado, baixe todos os arquivos deste repositórios em uma pasta e, na mesma, rode o terminal.
 6) Com o banco criado e os arquivos instalados, é necessário conectar o projeto ao Servidor, a partir do código: `php artisan serve`. Acesse o link fornecido para observar as páginas da aplicação.
 7) Para passar as tabelas para o Banco de Dados, rode no terminal `php artisan migrate`.
 8) A partir de agora, já é possível realizar todas as funções descritas na aplicação (Criar, Ler, Editar e Remover dados relacionados aos carregadores).
